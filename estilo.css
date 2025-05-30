@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    min-height: 100vh;
+}
+
+body{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#areaCabecalho{
+    font-family: 'Montserrat';
+    background-color: aqua;
+    text-align: right;
+    padding: 15px;
+}
+
+#areaMenu, a:link{
+    padding: 15px;
+}
+
+
+#areaPrincipal {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+#rodape{
+    background-color: aqua;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+img {
+    border: 2px solid black;
+}
+
+#postagem button:hover, .postagem button:hover {
+    background-color: aqua;
+    color:black;
+}
+
+.comprar {
+    display: block;
+    margin: 25px auto 0 auto;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    padding: 18px 48px;
+    border-radius: 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.comprar:hover {
+    background-color: black;
+    color: #fff;
+    transform: scale(1.07);
+}
+
+
+
