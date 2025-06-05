@@ -15,7 +15,7 @@ body{
 
 #areaCabecalho{
     font-family: 'Montserrat';
-    background-color: aqua;
+    background-color: black;
     text-align: right;
     padding: 15px;
 }
@@ -24,6 +24,18 @@ body{
     padding: 15px;
 }
 
+#areaMenu a {
+    color: #fff;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+#areaMenu a:hover {
+    color: blue;
+}
 
 #areaPrincipal {
     display: flex;
@@ -34,7 +46,8 @@ body{
 }
 
 #rodape{
-    background-color: aqua;
+    background-color: black;
+    color: white;
     clear: both;
     text-align: center;
     padding: 15px;
